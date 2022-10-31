@@ -1,0 +1,9 @@
+m= int(input("Enter m: "))
+n= int(input("Enter n: "))
+y= int(input("Enter y: "))
+
+width_blocks= math.floor(n/2)
+length_blocks= math.floor(m/y)
+total_blocks= width_blocks * length_blocks
+
+print(total_blocks)
